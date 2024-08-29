@@ -16,7 +16,7 @@ console.log(undefined==0);
 console.log(undefined>0);
 console.log(undefined<0);
 
-//===   ---- as it comapre the value and also find the datatype of the input value..
+//===   ---- as it compare the value and also find the datatype of the input value..
 
 console.log("2"===2);
 
