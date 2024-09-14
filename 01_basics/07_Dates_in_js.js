@@ -25,5 +25,19 @@ console.log(myCreatedddDate.toLocaleString());
 
 
 let myTimeStamp = Date.now()
-console.log(myTimeStamp);
+console.log(myTimeStamp); //used when we have to analyse the time in mcq or poll etc to see how has done fast and all that stuff
+
+// console.log(myCreatedddDate.getTime());
+// console.log(Math.floor(Date.now()/1000));
+
+let newDate = new Date();
+//console.log(newDate);
+
+newDate.toLocaleString('default',{
+    weekday:"long",
+})
+
+ 
+
+
 
